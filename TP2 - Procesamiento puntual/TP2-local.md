@@ -1,6 +1,6 @@
 # TRABAJO PRÁCTICO 2
 
-Temas:  Procesamiento puntual
+Temas:  Procesamiento local
 
 ## Tareas
 
