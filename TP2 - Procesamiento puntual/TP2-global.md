@@ -12,9 +12,9 @@ En base a la propuesta aprobada en cada caso, deberán determinar para conjunto 
 Sobre los datos obtenidos para cada imagen y su análisis en conjunto deberán definir la necesidad de aplicar mejoras utilizando:
 
   * técnicas basadas en procesamiento puntual
-  * técnicas de mejora de brillo y/o contraste
-  * técnicas para identificar y tratar ruido
-  * técnicas de detección de bordes
+  * técnicas de mejora de brillo y/o contraste Fran
+  * técnicas para identificar y tratar ruido (pasa bajo) Facu
+  * técnicas de detección de bordes (pasa alto)
 
 La elección de las técnicas que decidan utilizar deberán estar suficientemente justificadas, y aplicadas en las imágenes utilizadas evidenciando una mejora efectiva de las mismas.
 
