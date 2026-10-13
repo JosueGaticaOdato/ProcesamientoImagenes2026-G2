@@ -5,6 +5,8 @@
 + https://www.youtube.com/watch?v=NVQawjoxs_Q
 * https://www.youtube.com/watch?v=neBZ6huolkg (En futbol)
 * https://www.youtube.com/watch?v=u0k2dTZ0vfs (Trackeo multiobjeto)
+* https://www.youtube.com/watch?v=lacjpBw0ZoU
+* https://www.youtube.com/watch?v=sEtWiYvI6l0
 
 Video 1º cuarto Panama vs. Argentina:
 https://drive.google.com/file/d/1c7QOSaLgVJ0AlUyCAegDfU7iM522NEnz/view?usp=sharing
