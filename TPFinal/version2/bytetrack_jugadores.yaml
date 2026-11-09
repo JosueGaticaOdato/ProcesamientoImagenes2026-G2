@@ -1,0 +1,9 @@
+# Segunda asociacion con detecciones debiles y mayor tolerancia a oclusiones.
+tracker_type: bytetrack
+track_high_thresh: 0.25
+track_low_thresh: 0.10
+new_track_thresh: 0.30
+# Ultralytics usa nominalmente 30 FPS: 90 conserva ~3 s a 30 FPS.
+track_buffer: 90
+match_thresh: 0.80
+fuse_score: true
