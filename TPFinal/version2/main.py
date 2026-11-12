@@ -87,6 +87,13 @@ COLORES = [
     (0, 220, 220) # Posibles arbitros: amarillo
 ]
 
+# ==========================================
+# DEBUGGING
+# ==========================================
+
+# Muestra los bordes de la cancha detectados en el video de salida.
+DEBUG_BORDES_CANCHA = False
+
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 # Evitar competencia entre los pools de OpenCV y PyTorch durante la inferencia.
 cv2.setNumThreads(1)
@@ -995,6 +1002,16 @@ def procesar_video():
             movimiento_camara = MovimientoCamara()
         plano_cercano_anterior = plano_cercano
         cancha = contorno_cancha(frame)
+        if DEBUG_BORDES_CANCHA and cancha is not None and len(cancha) >= 3:
+            cancha_dibujo = np.round(cancha).astype(np.int32)
+            cv2.polylines(
+                imagen,
+                [cancha_dibujo],
+                isClosed=True,
+                color=(0, 255, 0),
+                thickness=3,
+                lineType=cv2.LINE_AA
+            )
         matriz_camara = movimiento_camara.actualizar(frame)
         if not plano_cercano:
             seguimiento.compensar_camara(matriz_camara)
